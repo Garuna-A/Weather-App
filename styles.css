@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    background-color: #F1EFEC;
+}
+header{
+    padding: 1%;
+    margin: 0;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #123458;
+    background-color: #D4C9BE;
+}
+#icon{
+    height: 100px;
+    width: 100px;
+}
+.daysIcon{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+.main{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.top{
+    width: 100%;
+    height: 70%;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.days{
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.input-wrapper input {
+    padding: 12px 16px;
+    width: 100%;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-wrapper input:focus {
+    outline: none;
+    border-color: #123458;
+    box-shadow: 0 0 8px rgba(18, 52, 88, 0.2);
+}
+
+.input-wrapper button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: #123458;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-wrapper button:hover {
+    background-color: #0f2e47;
+}
