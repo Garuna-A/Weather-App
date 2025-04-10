@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="Assets/sun.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Weather App</header>
+    <div class="main">
+        <div class="input-wrapper">
+            <input type="text" id="locationInput" placeholder="Enter location..." />
+            <button id="getWeatherBtn">Get Weather</button>
+        </div>
+        
+        <div class="content">
+            <div class="top">
+                <div class="left">
+
+                    <div id="weatherImg"><img src="" alt="" id="icon"></div>
+                    <div id="weatherTemp" style="font-size: x-large; font-weight: 700; padding-right: 10px;"></div>
+                    <div class="extras" style="padding-left: 5px; border-left: 2px solid black;">
+
+                        
+                        <p id="humidity">Humidity: </p>
+                        <p id="wind">Wind: </p>
+                    </div>
+                </div>
+        
+                <div class="right">
+                    <p id="day0text" style="font-size: larger;"></p>
+                    <p id="address"></p>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <div id="day1" class="days">
+                    <img src="" alt="" id="day1img" class="daysIcon">
+                    <p id="day1text"></p>
+                </div>
+                <div id="day2" class="days">
+                    <img src="" alt="" id="day2img" class="daysIcon">
+                    <p id="day2text"></p>
+                </div>
+                <div id="day3" class="days">
+                    <img src="" alt="" id="day3img" class="daysIcon">
+                    <p id="day3text"></p>
+                </div>
+                <div id="day4" class="days">
+                    <img src="" id="day4img" class="daysIcon"></img>
+                    <p id="day4text"></p>
+                </div>
+                <div id="day5" class="days">
+                    <img src="" alt="" id="day5img" class="daysIcon">
+                    <p id="day5text"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="description" style="margin-top: 10px; font-weight: 700; font-size: larger;">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
